@@ -40,7 +40,7 @@ span,strong{
 	margin:10px 65px ;
 	font-size:25px;
 }
-.time,.day{
+.time{
 	display:flex;
 	
 }
@@ -72,28 +72,33 @@ span,strong{
 	background-color:#c6a3a7;
 	margin:10px;
 }
-b{
-	color:white;
-	
-}
+
 .time-width{
 	width:80%;
 	font-size:25px;
 	margin-bottom:15px;
 }
+.state span{
+	margin:10px 20px;
+}
+.state b{
+	margin:0 12px ;
+	color:white;
+}
 .day{
-	width:80%;
-	margin:10px 70px;
+	width:85%;
+	margin:10px 60px;
 }
 .day span{
-	margin:10px 33px;
+	margin:10px 30px;
 }
+
 .names{
 	margin-left:60px;
 	margin-right:40px;
 }
 .names strong{
-	margin:0 14px;
+	margin:0 13px;
 }
   .active{
 	 background-color:red;
